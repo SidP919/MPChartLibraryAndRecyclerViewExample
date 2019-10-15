@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00CBFF</color>
+    <color name="colorPrimaryDark">#0087FF</color>
+    <color name="colorAccent">#5D00FF</color>
+    <color name="mainActivity_bgcolor_white">#F3F3F3</color>
+    <color name="statusActivity_barColor_grey">#b9b9b9</color>
+</resources>

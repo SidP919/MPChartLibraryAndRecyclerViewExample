@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainActivity_bgcolor_white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainActivity_LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/mediumPadding"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/user_default_img_foreground"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:contentDescription="default profile image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/user_name"
+            android:gravity="center"
+            android:textSize="@dimen/mediumText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textSize="@dimen/smallText"
+            android:gravity="center"
+            android:text="@string/emp_id"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Dashboard_RecyclerView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/smallMargin"
+        android:padding="@dimen/smallPadding"
+        android:layout_below="@+id/mainActivity_LinearLayout02"/>
+
+</RelativeLayout>

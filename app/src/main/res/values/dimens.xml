@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Paddings:
+    <dimen name="largePadding">24dp</dimen>
+    <dimen name="mediumPadding">16dp</dimen>
+    <dimen name="smallPadding">8dp</dimen>
+
+    //Margins:
+    <dimen name="largeMargin">24dp</dimen>
+    <dimen name="mediumMargin">16dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+
+    //TextSizes:
+    <dimen name="largeText">32sp</dimen>
+    <dimen name="mediumText">24sp</dimen>
+    <dimen name="smallText">16sp</dimen>
+
+</resources>

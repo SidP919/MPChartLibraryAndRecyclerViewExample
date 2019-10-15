@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TCStestApp01</string>
+    <string name="user_name"><![CDATA[<User Name>]]></string>
+    <string name="emp_id"><![CDATA[<Emp ID>]]></string>
+</resources>
